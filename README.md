@@ -1,0 +1,13 @@
+# Vivaldi Speed Dial Generator
+
+This extension makes the [Vivaldi browser](https://vivaldi.com/) automatically generate a cool Speed Dial image based on possible graphics defined in the meta or link tags, instead generating a picture of the page.
+
+# How to use it
+
+Just install the extension and reload your Speed Dial images, nothing more.
+
+Just notice that since there are certain websites that link to non-existent resources the extension checks the resources before using them, this slows down the script execution and the generation may not fire. To be sure you don't fall on this problem make sure to cache the page first by visiting it before creating an image.
+
+**Will this work on another browser or Speed Dial extension?**
+
+Probably not. This extension uses a singularity of Vivaldi Speed Dial generation to inject itself and this is probably not the same on other browsers or extensions.

@@ -2,6 +2,8 @@
 
 This extension makes the [Vivaldi browser](https://vivaldi.com/) automatically generate a cool Speed Dial image based on possible graphics defined in the meta or link tags, instead generating a picture of the page.
 
+![Preview of some generated speed dials](https://github.com/An-dz/VSDGenerator/raw/master/GeneratedSD.png)
+
 # How to use it
 
 Just install the extension and reload your Speed Dial images, nothing more.

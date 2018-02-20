@@ -31,6 +31,20 @@ document.addEventListener("DOMContentLoaded", function () {
         // console.log("theme-color:", color);
     }
 
+    var fav = document.querySelector("link[rel~='icon']");
+    var favicon = new Image();
+    favicon.onload = function () {
+        // console.log("@ ==>", fav, favicon.height);
+        if (fav === 0 && favicon.height > 48) {
+            createSD(favicon.src, 0);
+        }
+    }
+    if (!!fav) {
+        favicon.src = fav.href;
+    } else {
+        favicon.src = "/favicon.ico";
+    }
+
     /* Build the SD image */
     function createSD(src, i) {
         // console.log("\tCreate SD:", src, i, color);
@@ -102,6 +116,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // console.log("\tNode:", logo);
 
         if (i > images.length) {
+            fav = 0;
             return;
         }
         else if (!logo) {

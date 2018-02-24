@@ -4,6 +4,14 @@ This extension makes the [Vivaldi browser](https://vivaldi.com/) automatically g
 
 ![Preview of some generated speed dials](https://github.com/An-dz/VSDGenerator/raw/master/GeneratedSD.png)
 
+# Installing
+
+1) Head to the [releases page](https://github.com/An-dz/VSDGenerator/releases)
+2) Download the latest version CRX file anywhere in your computer
+3) Open Vivaldi
+4) Open the extensions page <vivaldi://extensions/>
+5) Drag the CRX file inside the Extensions page
+
 # How to use it
 
 Just install the extension and reload your Speed Dial images, nothing more.

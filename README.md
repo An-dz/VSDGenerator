@@ -10,6 +10,7 @@ This extension makes the [Vivaldi browser](https://vivaldi.com/) automatically g
 2) Download the latest version CRX file anywhere in your computer
 3) Open Vivaldi
 4) Open the extensions page <vivaldi://extensions/>
+4) Enable _"Developer mode"_ at the top right
 5) Drag the CRX file inside the Extensions page
 
 # How to use it

@@ -70,19 +70,22 @@ document.addEventListener("DOMContentLoaded", function () {
 		// set style
 		const node = document.createElement("style");
 		node.type = "text/css";
-		node.appendChild(document.createTextNode("\
-			html, body {\
-				height: 100% !important;\
-				margin: 0 !important;\
-				padding: 0 !important;\
-				background-color: " + color + " !important;\
-			}\
-			body {\
-				background-image: url('" + src + "') !important;\
-				background-position: center !important;\
-				background-size: " + (isLogo[i] ? "auto 50%" : "cover") + " !important;\
-				background-repeat: no-repeat !important;\
-			}"));
+		node.appendChild(document.createTextNode(`
+			html, body {
+				height: 100% !important;
+				margin: 0 !important;
+				padding: 0 !important;
+				background-color: ${color} !important;
+			}
+			body {
+				background-image: url('${src}') !important;
+				background-position: center !important;
+				background-size: ${isLogo[i] ? "auto 50%" : "cover"} !important;
+				background-repeat: no-repeat !important;
+			}
+			html > :not(body), body * {
+				display: none !important;
+			}`));
 		document.head.appendChild(node);
 
 		// clean body

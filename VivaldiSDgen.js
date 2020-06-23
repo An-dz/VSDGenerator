@@ -1,3 +1,5 @@
+"use strict";
+
 document.addEventListener("DOMContentLoaded", function () {
 	if (window.innerHeight !== 838 || window.innerWidth !== 1024 || window.innerHeight !== window.outerHeight || window.innerWidth !== window.outerWidth) {
 		return;

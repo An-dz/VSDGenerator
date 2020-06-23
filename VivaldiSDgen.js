@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	const favicon = new Image();
 	favicon.onload = function () {
 		// console.log("@ ==>", fav, favicon.height);
-		if (fav === 0 && favicon.height > 48) {
+		if (fav === 0) {
 			createSD(favicon.src, 0);
 		}
 	};
